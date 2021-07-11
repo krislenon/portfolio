@@ -1,0 +1,98 @@
+/**
+color palletes:
+#301A4B - violet
+#6DB1BF - light blue
+#FFEAEC - whitish pink
+#F39A90 - pink
+#3F6C51 - green
+
+fonts:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Varela Round', sans-serif;
+**/
+
+html {
+  box-sizing: border-box;
+}
+/**
+*, *::before, *::after {
+  box-sizing: inherit;
+}**/
+
+body {
+  background-color: #FFEAEC;
+  padding-bottom: 50px;
+}
+
+header {
+  background-color: #F39A90;
+  text-align: center;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header p {
+  color: #FFEAEC;
+}
+
+header, section {
+  margin: -20px -10px -20px -10px;
+  padding: 2% 10%;
+}
+
+span {
+  color: #3F6C51;
+}
+
+h1 {
+  color: #301A4B;
+}
+
+h2 {
+  color: #301A4B;
+}
+
+h3 {
+  color: #6DB1BF;
+}
+
+h1, h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.intro p {
+  color: #3F6C51;
+}
+
+.textarea-container {
+  max-width: 100%;
+}
+
+.textarea-div {
+  width: 100%;
+  height: auto;
+}
+
+.textinput {
+  width: 100%;
+  min-height: 200px;
+  outline: none;
+  resize: none;
+  border-radius: 10px;
+  border-color: #6DB1BF;
+  padding: 10px;
+  color: #3F6C51;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  float: right;
+  background-color: #F39A90;
+  color: #301A4B;
+  border: none;
+  padding: 6px 10px;
+  font-family: 'Varela Round', sans-serif;
+}
